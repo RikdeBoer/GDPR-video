@@ -1,20 +1,22 @@
 # GDPR video
 _GDPR-style consent prompt for YouTube and Vimeo videos on your website_
 
-This projectimplements a requirement from the European General Data Protection
+This project implements a requirement from the European General Data Protection
 Regulation, which applies to websites targeting any of the European Union 
 member states. For details, see https://privacyinternational.org/long-read/2207/why-and-how-gdpr-applies-companies-globally.
-If a website features embedded videos, it must not use cookies before the user
-has given explicit consent.
+In short:
+If a website features embedded videos, these must not use cookies before the
+user has been prompted and has given explicit consent.
 
 The JS automatically pops up a GDPR-style consent prompt over the top of 
 each YouTube or Vimeo remote video iframe on your site.
 Rather than first loading the player and its controls, this code loads the
 video's default frame as a plain image "teaser". This does not involve cookies
-or other private data. 
+or other private data, so is compliant with GDPR.
 The module then places a consent prompt over the top of the image with an
 "I agree" button. After the user has clicked the button, the video player is
 loaded and its play button may be pressed to watch the video as per normal.
+From this point onwards, cookies may or may not be used.
 
 ## How to install
 Drupal users: there's a module for this: https://drupal.org/project/gdpr_video
