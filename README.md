@@ -16,6 +16,27 @@ The module then places a consent prompt over the top of the image with an
 "I agree" button. After the user has clicked the button, the video player is
 loaded and its play button may be pressed to watch the video as per normal.
 
+## How to install
+Drupal users: there's a module for this: https://drupal.org/project/gdpr_video
+
+If you use another system you need to make sure that the gdpr_video.js and 
+gdpr_video.css files are included on the pages on your site that (may) 
+contain embedded video iframes.
+Put these files with the other .js and .css files on your server.
+Then make sure that the page HTML contains something like this:
+
+<head>
+  ....
+  <link rel="stylesheet" media="all" href=".../gdpr_video.css"/>
+</head>
+<body>
+  ....
+  ...
+  <script src=".../gdpr_video.js"></script>
+</body>
+
+
+
 *Note regarding YouTube cookies*
 
 While the alternative YouTube domain youtube-nocookie.com may suggest that
