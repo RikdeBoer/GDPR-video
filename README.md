@@ -24,7 +24,7 @@ gdpr_video.css files are included on the pages on your site that (may)
 contain embedded video iframes.
 Put these files with the other .js and .css files on your server.
 Then make sure that the page HTML contains something like this:
-
+```
 <head>
   ....
   <link rel="stylesheet" media="all" href=".../gdpr_video.css"/>
@@ -34,7 +34,7 @@ Then make sure that the page HTML contains something like this:
   ...
   <script src=".../gdpr_video.js"></script>
 </body>
-
+```
 
 
 *Note regarding YouTube cookies*
