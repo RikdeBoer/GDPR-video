@@ -40,9 +40,9 @@ Then make sure that the page HTML contains something like this:
 
 For a super simple working demo, download the following files to the same
 folder on your laptop/desktop, e.g. your desktop.
-* gdpr_youtube.css
-* gdpr_youtube.js
-* gdpr_youtube_example.html
+* gdpr_video.css
+* gdpr_video.js
+* gdpr_video_example.html
 Then double-click the .html file. 
 Nice?
 
@@ -61,5 +61,3 @@ select View -> Developer -> Developer Tools. A panel opens at the bottom of
 the screen with a toolbar of many options. Click Application to reveal a panel
 on the left. Under the heading Storage, you'll see your Cookies and other types
 of local storage appear.
-
-
