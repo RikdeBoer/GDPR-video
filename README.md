@@ -4,9 +4,10 @@ _GDPR-style consent prompt for YouTube and Vimeo videos on your website_
 This project implements a requirement from the European General Data Protection
 Regulation, which applies to websites targeting any of the European Union 
 member states. For details, see https://privacyinternational.org/long-read/2207/why-and-how-gdpr-applies-companies-globally.
-In short:
-If a website features embedded videos, these must not use cookies before the
-user has been prompted and has given explicit consent.
+
+In short, when it comes to videos, the GDPR requires the following.
+_*If a website features embedded videos, these must not use cookies before the
+user has been prompted and has given explicit consent.*_
 
 The JS automatically pops up a GDPR-style consent prompt over the top of 
 each YouTube or Vimeo remote video iframe on your site.
