@@ -43,8 +43,8 @@ Then make sure that the page HTML contains something like this (with the file pa
 If you prefer you can put the &lt;script> tag inside the &lt;head>, just before or after the CSS &lt;link>.
 
 ### Instant satisfaction
-For a super simple working demo, download the following files to the same
-folder on your laptop/desktop, e.g. your desktop.
+For a super simple working demo, download the following 3 files into the same
+folder on your laptop or PC;
 * gdpr_video.css
 * gdpr_video.js
 * gdpr_video_example.html
