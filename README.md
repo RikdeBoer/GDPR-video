@@ -21,8 +21,9 @@ From this point onwards, cookies may or may not be used.
 ## How to install
 Drupal users: there's a module for this: https://drupal.org/project/gdpr_video
 
-If you use another system you need to make sure that the gdpr_video.js and 
-gdpr_video.css files are included on the pages on your site that (may) 
+
+If you use another website system you need to make sure that the gdpr_video.js
+and gdpr_video.css files are included on the pages on your site that (may) 
 contain embedded video iframes.
 Put these files with the other .js and .css files on your server.
 Then make sure that the page HTML contains something like this:
@@ -37,7 +38,7 @@ Then make sure that the page HTML contains something like this:
   <script src=".../gdpr_video.js"></script>
 </body>
 ```
-
+### Instant satisfaction
 For a super simple working demo, download the following files to the same
 folder on your laptop/desktop, e.g. your desktop.
 * gdpr_video.css
