@@ -29,7 +29,7 @@ Then make sure that the page HTML contains something like this:
 ```
 <head>
   ....
-  <link rel="stylesheet" media="all" href=".../gdpr_video.css"/>
+  <link rel="stylesheet" href=".../gdpr_video.css"/>
 </head>
 <body>
   ....
@@ -37,6 +37,14 @@ Then make sure that the page HTML contains something like this:
   <script src=".../gdpr_video.js"></script>
 </body>
 ```
+
+For a super simple working demo, download the following files to the same
+folder on your laptop/desktop, e.g. your desktop.
+* gdpr_youtube.css
+* gdpr_youtube.js
+* gdpr_youtube_example.html
+Then double-click the .html file. 
+Nice?
 
 
 *Note regarding YouTube cookies*
