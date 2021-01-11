@@ -44,7 +44,8 @@ folder on your laptop/desktop, e.g. your desktop.
 * gdpr_video.css
 * gdpr_video.js
 * gdpr_video_example.html
-Then double-click the .html file. 
+
+Then double-click the .html file and a YouTube video with GDPR consent overlay should appear. 
 Nice?
 
 
