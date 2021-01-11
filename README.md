@@ -40,7 +40,7 @@ Then make sure that the page HTML contains something like this:
   <script src=".../gdpr_video.js"></script>
 </body>
 ```
-If you prefer you can put the <script> tag inside the <head>, just before or after the CSS <link>.
+If you prefer you can put the &lt;script> tag inside the &lthead>, just before or after the CSS &lt;link>.
 
 ### Instant satisfaction
 For a super simple working demo, download the following files to the same
