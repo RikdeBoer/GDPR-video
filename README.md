@@ -7,7 +7,7 @@ member states. For details, see https://privacyinternational.org/long-read/2207/
 
 In short, when it comes to videos, the GDPR requires the following.
 
-*If a website features embedded videos, these must not use cookies before the
+*If a website features embedded videos, these must not use cookies (or other private data) before the
 user has been prompted and has given explicit consent.*
 
 File gdpr_video.js automatically pops up a GDPR-style consent prompt over the top of 
